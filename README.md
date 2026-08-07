@@ -36,7 +36,7 @@ is an empty `<div id="root">`. Google can execute JavaScript and sees the
 real content, but AI crawlers (GPTBot, ClaudeBot, PerplexityBot, etc.)
 do not — they only read the initial HTML. Prerendering bakes the real
 markup into the HTML files so every crawler gets real content immediately,
-with no JavaScript required.
+with no JavaScript required after builds.
 
 `npm run dev` is unaffected — prerendering only runs for production builds.
 
