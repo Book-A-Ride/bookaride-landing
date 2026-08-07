@@ -1,6 +1,13 @@
 import LegalLayout from "../components/LegalLayout";
+import { useDocumentMeta } from "../hooks/useDocumentMeta";
 
 export default function TermsAndConditions() {
+  useDocumentMeta({
+    title: "Terms & Conditions | Book A Ride",
+    description:
+      "Review the terms governing your use of Book A Ride's website, waitlist and ride-booking services for BOUESTI students in Ikere-Ekiti.",
+    path: "/terms-and-conditions",
+  });
   return (
     <LegalLayout title="Terms & Conditions" updated="August 2026">
       <p>

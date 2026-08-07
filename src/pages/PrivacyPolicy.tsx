@@ -1,6 +1,13 @@
 import LegalLayout from "../components/LegalLayout";
+import { useDocumentMeta } from "../hooks/useDocumentMeta";
 
 export default function PrivacyPolicy() {
+  useDocumentMeta({
+    title: "Privacy Policy | Book A Ride",
+    description:
+      "Read how Book A Ride collects, uses and protects your personal information when you use our website, waitlist and ride-booking services.",
+    path: "/privacy-policy",
+  });
   return (
     <LegalLayout title="Privacy Policy" updated="August 2026">
       <p>
