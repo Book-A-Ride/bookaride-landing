@@ -7,9 +7,14 @@ export default defineConfig({
   server: {
     port: 3000,
     allowedHosts: [
-      "https://bookaride.cv",
       "bookaride.cv",
-      "https://bookaride-landing.pxxlspace.cv",
+      "bookaride-landing.pxxlspace.cv",
+    ],
+  },
+  preview: {
+    port: 3000,
+    allowedHosts: [
+      "bookaride.cv",
       "bookaride-landing.pxxlspace.cv",
     ],
   },
