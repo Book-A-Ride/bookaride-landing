@@ -35,11 +35,11 @@ export default function MissionVision() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.4 }}
               transition={{ duration: 0.55, delay: i * 0.12 }}
-              className="group h-72 [perspective:1400px]"
+              className="group h-72 perspective-[1400px]"
             >
-              <div className="relative h-full w-full rounded-3xl transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="relative h-full w-full rounded-3xl transition-transform duration-700 transform-3d group-hover:transform-[rotateY(180deg)]">
                 {/* front */}
-                <div className="absolute inset-0 flex flex-col justify-between rounded-3xl border border-border bg-white p-8 [backface-visibility:hidden]">
+                <div className="absolute inset-0 flex flex-col justify-between rounded-3xl border border-border bg-white p-8 backface-hidden">
                   <span className="font-mono text-xs uppercase tracking-wider text-primary">
                     {card.label}
                   </span>
@@ -53,7 +53,7 @@ export default function MissionVision() {
                 </div>
 
                 {/* back */}
-                <div className="absolute inset-0 flex flex-col justify-center rounded-3xl bg-primary p-8 text-white [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                <div className="absolute inset-0 flex flex-col justify-center rounded-3xl bg-primary p-8 text-white backface-hidden transform-[rotateY(180deg)]">
                   <span className="font-mono text-xs uppercase tracking-wider text-secondary">
                     {card.label}
                   </span>
