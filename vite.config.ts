@@ -5,6 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: ["https://bookaride.cv"]
-  }
-})
+    allowedHosts: [
+      "https://bookaride.cv",
+      "bookaride.cv",
+      "https://bookaride-landing.pxxlspace.cv",
+      "bookaride-landing.pxxlspace.cv",
+    ],
+  },
+});
