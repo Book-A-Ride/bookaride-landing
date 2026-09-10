@@ -81,7 +81,7 @@ export default function Hero() {
             className="mt-8 flex flex-wrap items-center gap-4"
           >
             <a
-              href="https://bookaride-waitlist.vercel.app/"
+              href="https://waitlist.bookaride.cv/"
               className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/25 transition-transform hover:-translate-y-0.5 hover:bg-primary-dark"
             >
               Join the Waitlist
