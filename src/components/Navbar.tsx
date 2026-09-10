@@ -47,7 +47,7 @@ export default function Navbar() {
         </nav>
 
         <a
-          href="https://bookaride-waitlist.vercel.app/"
+          href="https://waitlist.bookaride.cv/"
           className="hidden sm:inline-flex items-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
         >
           Join Waitlist
@@ -85,7 +85,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://bookaride-waitlist.vercel.app/"
+            href="https://waitlist.bookaride.cv/"
             className="mt-1 rounded-lg bg-primary px-3 py-2 text-center text-sm font-semibold text-white"
           >
             Join Waitlist
